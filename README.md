@@ -11,7 +11,9 @@ To build your neural network, you will be implementing several "helper functions
         -> Combine the previous two steps into a new [LINEAR->ACTIVATION] forward function.
         
         -> Stack the [LINEAR->RELU] forward function L-1 time (for layers 1 through L-1) and add a [LINEAR->SIGMOID] at the end      (for the final layer $L$). This gives you a new L_model_forward function.
+    
     3.Compute the loss.
+    
     4.Implement the backward propagation module (denoted in red in the figure below).
         -> Complete the LINEAR part of a layer's backward propagation step.
         
